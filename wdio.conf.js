@@ -4,11 +4,8 @@ exports.config = {
         './test/*.js'
     ],
     exclude: [
-
     ],
-
     maxInstances: 10,
-
     capabilities: [
         {
 
@@ -17,7 +14,6 @@ exports.config = {
             browserName: 'chrome'
         }
     ],
-
     sync: true,
     logLevel: 'silent',
     coloredLogs: true,
