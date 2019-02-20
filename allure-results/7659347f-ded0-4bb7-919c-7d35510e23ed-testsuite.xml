@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547568091122' stop='1547568102285'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1547568091123' status='passed' stop='1547568096043'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568091126' status='passed' stop='1547568093007'>
+                    <name>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/url</name>
+                    <title>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cb68b636-ac9c-4730-bc44-e10f10c06be9-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='e4be4332-0841-4eef-8cd6-ac0613b361b2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568093010' status='passed' stop='1547568093035'>
+                    <name>GET /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/title</name>
+                    <title>GET /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/title</title>
+                    <attachments>
+                        <attachment title='Response' source='8338c1e1-b068-4523-a190-3d29de3432f2-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547568096044' status='passed' stop='1547568099141'>
+            <name>get header title</name>
+            <title>get header title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568099051' status='passed' stop='1547568099097'>
+                    <name>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/elements</name>
+                    <title>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='737583bf-7803-428e-b5ca-87f7e8c9a523-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='06578bd7-c4e0-42fe-ad46-d74142f790cc-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568099097' status='passed' stop='1547568099139'>
+                    <name>GET /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element/0.15849106046622707-1/text</name>
+                    <title>GET /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element/0.15849106046622707-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='6a3124bb-6647-451e-a488-ffdddd30ee58-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547568099142' status='broken' stop='1547568102284'>
+            <name>click registration button</name>
+            <title>click registration button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568099142' status='passed' stop='1547568099180'>
+                    <name>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element</name>
+                    <title>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a9a7a98d-4138-49c3-b020-69f31554de91-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='4e546740-fd8f-482a-bc75-955b4e4eadf7-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568099180' status='passed' stop='1547568099277'>
+                    <name>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element/0.15849106046622707-2/click</name>
+                    <title>POST /wd/hub/session/c7f278d41f9f29eceb8224fbd20c9497/element/0.15849106046622707-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='99e8ce4f-fc02-4622-8491-eaf23e99d7ee-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>timeoutMsg is not defined</message>
+                <stack-trace>ReferenceError: timeoutMsg is not defined
+                    at Context.&lt;anonymous> (C:\Users\Daddy\WebstormProjects\TestAutomation\test\test.js:18:63)
+                    at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

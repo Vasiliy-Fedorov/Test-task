@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547568481510' stop='1547568483100'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1547568481510' status='passed' stop='1547568482602'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568481517' status='passed' stop='1547568482567'>
+                    <name>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/url</name>
+                    <title>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c4d57ecb-e14e-495c-a008-042d70dfef99-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='786bd4e6-850a-4053-a52e-0b163c29082b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568482569' status='passed' stop='1547568482588'>
+                    <name>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/title</name>
+                    <title>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/title</title>
+                    <attachments>
+                        <attachment title='Response' source='8aa2bc2b-47a6-4609-8b89-fc10f4b1aadf-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547568482603' status='passed' stop='1547568482743'>
+            <name>get header title</name>
+            <title>get header title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568482604' status='passed' stop='1547568482659'>
+                    <name>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/elements</name>
+                    <title>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='10f0ec60-5737-4809-a3d6-95a605438528-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='6b5bba91-bac4-4578-a369-6476301d9c16-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568482659' status='passed' stop='1547568482739'>
+                    <name>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/element/0.6529731881038703-1/text</name>
+                    <title>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/element/0.6529731881038703-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='fc8a7195-6e34-4e1d-8789-bcfa5874c3db-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547568482744' status='broken' stop='1547568483099'>
+            <name>click registration button</name>
+            <title>click registration button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547568482745' status='passed' stop='1547568482802'>
+                    <name>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/element</name>
+                    <title>POST /wd/hub/session/a1a81443c65a9293025d90985c18812f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='af80dd25-0e01-4161-a4b4-00f04739f3ef-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='2c17f334-592e-414c-bc02-91335ed39ae3-attachment.json' type='application/json' size='593'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547568482803' status='broken' stop='1547568483099'>
+                    <name>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/screenshot</name>
+                    <title>GET /wd/hub/session/a1a81443c65a9293025d90985c18812f/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f32fe592-d07a-4de8-be4c-42a1371fb4e2-attachment.png' type='image/png' size='19758'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters.</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters.
+                    at click("#registration") -     at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\at element("#registration") - C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\webdriverio\build\lib\commands\click.js:12:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

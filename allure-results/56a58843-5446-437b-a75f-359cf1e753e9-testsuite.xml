@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550672284051' stop='1550672285861'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1550672284052' status='broken' stop='1550672285859'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1550672284065' status='passed' stop='1550672285408'>
+                    <name>POST /wd/hub/session/8a47ec09c19e53f88336244f193e727c/url</name>
+                    <title>POST /wd/hub/session/8a47ec09c19e53f88336244f193e727c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba6534be-fe8a-44a8-ac33-e958bd90f03a-attachment.json' type='application/json' size='31'/>
+                        <attachment title='Response' source='ffdf7885-db6f-4c89-af9e-96db9c09401f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550672285409' status='passed' stop='1550672285511'>
+                    <name>POST /wd/hub/session/8a47ec09c19e53f88336244f193e727c/element</name>
+                    <title>POST /wd/hub/session/8a47ec09c19e53f88336244f193e727c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='16c1af98-4b1f-4b5c-8939-a7cfe85512df-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='99dedf63-5074-4281-907c-f8a4ecd34614-attachment.json' type='application/json' size='677'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550672285516' status='broken' stop='1550672285859'>
+                    <name>GET /wd/hub/session/8a47ec09c19e53f88336244f193e727c/screenshot</name>
+                    <title>GET /wd/hub/session/8a47ec09c19e53f88336244f193e727c/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a7303b66-e36b-428c-ab79-cb0f72de1d3e-attachment.png' type='image/png' size='8041'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string`</message>
+                <stack-trace>Error: selector needs to be typeof `string`
+                    at isVisible([object Object]) -     at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\at elements([object Object]) - C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\webdriverio\build\lib\commands\isVisible.js:54:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

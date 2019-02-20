@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547554202660' stop='1547554203668'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1547554202661' status='passed' stop='1547554203544'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547554202669' status='passed' stop='1547554203523'>
+                    <name>POST /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/url</name>
+                    <title>POST /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a1e06472-cdf1-4221-b318-20e0295f7960-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='7eb6b0af-0fb2-43e0-9ea0-567f3f499cd5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547554203524' status='passed' stop='1547554203542'>
+                    <name>GET /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/title</name>
+                    <title>GET /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e9b4a911-e030-4087-bc48-091971b439c6-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547554203544' status='broken' stop='1547554203666'>
+            <name>get header title</name>
+            <title>get header title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Daddy\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1547554203550' status='passed' stop='1547554203606'>
+                    <name>POST /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/element</name>
+                    <title>POST /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d87e023-dc05-4259-ab62-33d6f6cb5834-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='522e5f24-b64d-4a88-82f9-9587d317173f-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547554203608' status='passed' stop='1547554203658'>
+                    <name>GET /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/element/0.798693952221839-1/text</name>
+                    <title>GET /wd/hub/session/51ce6724a2e8667f44813dcd1b91a876/element/0.798693952221839-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='6fe65fff-10f0-4ad3-a8ea-2677335bb915-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>title is not defined</message>
+                <stack-trace>ReferenceError: title is not defined
+                    at Context.&lt;anonymous> (C:\Users\Daddy\WebstormProjects\TestAutomation\test\test.js:14:22)
+                    at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\Users\Daddy\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
