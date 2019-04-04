@@ -26,14 +26,15 @@ exports.config = {
     connectionRetryCount: 3,
     services: ['selenium-standalone'],
     framework: 'mocha',
-    reporters: ['dot', 'spec', 'allure'],
+    reporters: ['dot', 'spec'],
     reporterOptions: {
         allure: {
             outputDir: 'allure-results'
         }
     },
     mochaOpts: {
-        ui: 'bdd'
+        ui: 'bdd',
+        timedOut: 15000
     },
 
 };

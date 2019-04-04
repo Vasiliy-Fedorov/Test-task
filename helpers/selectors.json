@@ -1,0 +1,7 @@
+{
+  "search":{
+    "searchInput": "#text",
+    "searchButton": ".button_theme_websearch",
+    "searchResult": "[data-cid='2']"
+}
+}
