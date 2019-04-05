@@ -15,7 +15,7 @@ describe('Yandex', function () {
         $(sel.searchResult).waitForVisible(2000);
         $(sel.searchResult).click();
 
-        assert.equal(true, true, 'Search is OK');
+        assert.equal(true, true, 'Search is not OK');
     });
     it('screen shot', function(){
         browser.windowHandleFullscreen();
